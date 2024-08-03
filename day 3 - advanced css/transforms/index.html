@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            background-color: hsl(200, 70%, 30%);
+            width: 100px;
+            height: 100px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2rem;
+        }
+
+        div {
+            /*transform: rotateY(.23turn);
+            transform: translate(100%);*/
+            position: relative;
+        }
+
+        /*div::after{
+            content: 'After';
+            background: red;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%);
+        }*/
+
+        div{
+            /*transform: skewY(30deg, -40deg);*/
+            transform: scale(1.2) translateX(50px);
+        }
+
+        .big {
+            transform: scale(2) translateX(50px);
+        }
+
+        .move{
+            transform: scale(1.2) translateX(50px);
+        }
+
+        .big.move{
+            transform: scale(2) translateX(-50px);
+        }
+    </style>
+</head>
+<body>
+    <div class="move big">Box</div>
+</body>
+</html>
