@@ -13,7 +13,7 @@
 }
 .card{
     width: 1000px;
-    height: 400px;
+    height: 150px;
     border-radius: 50px;
     background-color: black;
     margin: 0 auto;
@@ -28,19 +28,21 @@
 }
 
 #get-weather-info {
+    width: 500px;
+    height: 50px;
     display: block;
     margin: 20px auto; 
     padding: 10px 20px;
-    background-color: #007BFF;
+    background-color: black;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
     transition: all 0.5s;
 }
 
 #get-weather-info:hover {
-    background-color: #0056b3;
+    background-color: #161616;
     transform: scale(1.1);
 }
 
